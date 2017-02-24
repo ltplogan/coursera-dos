@@ -113,6 +113,8 @@ p {clear: both; padding: 10px;}
     background-color: black;
 }
 
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:active .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {
     background-color: white;
 }
