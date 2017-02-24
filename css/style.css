@@ -102,10 +102,6 @@ p {clear: both; padding: 10px;}
     border-color: black;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
-}
-
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:active, 
 .navbar-default.navbar-toggle:focus {
@@ -113,7 +109,11 @@ p {clear: both; padding: 10px;}
     border-color: white;
 }
 
-.navbar-default .navbar-toggle:focus .icon-bar {
+button.navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+button.navbar-toggle:focus .icon-bar {
     background-color: white;
 }
 
