@@ -98,22 +98,6 @@ p {clear: both; padding: 10px;}
     background-color: black;
 }
 
-.navbar-default .navbar-toggle {
-    border-color: black;
-}
-.navbar-default .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
-    border-color: white;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
-}
-
-.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: white;
-}
-
 .navbar-default .navbar-brand {
     color: black;
 }
@@ -136,6 +120,26 @@ p {clear: both; padding: 10px;}
     .top {
         display: none;
     }
+
+    .navbar-default .navbar-toggle {
+        border-color: black;
+    }
+
+    .navbar-default .navbar-toggle:hover, 
+    .navbar-default .navbar-toggle:active, 
+    .navbar-default.navbar-toggle:focus {
+        border-color: white;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: black;
+    }
+
+    .navbar-default .navbar-toggle:focus .icon-bar {
+        background-color: white;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
